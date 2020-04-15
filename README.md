@@ -21,6 +21,7 @@ The main approach implemented in the system:
 Acoustic features: Log Mel-band energies extracted in 40ms windows with 20ms hop size.
 Machine learning: neural network approach using multi-scale time-frequency convolutional recurrent neural network (MTF-CRNN) for sound event detection (with 300 neurons each, and 20% dropout between layers).
 Directory layout
+
 .
 ├── applications            # Task specific applications (task2.py) 
 │   └── parameters          # Default parameters for the applications
@@ -29,8 +30,9 @@ Directory layout
 │   └── pytorch_utils.py         # The model code
 ├── README.md               # This file
 └── requirements.txt        # External module dependencies 
+
 Installation
-The system is developed for Python 3.6. 5. Thesystem is tested to work with Linux operating systems.
+The system is developed for Python 3.6. 5. This system is tested to work with Linux operating systems.
 
 To get started, run command:
 
